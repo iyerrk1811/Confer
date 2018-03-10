@@ -40,7 +40,8 @@
         <activity
             android:name=".Participant"
             android:label="@string/title_activity_participant"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ComposeMailActivity"></activity>
     </application>
 
 </manifest>

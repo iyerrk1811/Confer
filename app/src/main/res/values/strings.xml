@@ -79,4 +79,5 @@
     <string name="title_activity_main">MainActivity</string>
     <string name="title_activity_organizer">Organizer</string>
     <string name="title_activity_participant">Participant</string>
+    <string name="title_activity_main2">Main2Activity</string>
 </resources>
