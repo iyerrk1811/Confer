@@ -1,9 +1,9 @@
 package confer.app.confer;
 
 import android.content.Intent;
+import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.view.View;
 
 public class ComposeMailActivity extends AppCompatActivity {
@@ -28,5 +28,42 @@ public class ComposeMailActivity extends AppCompatActivity {
     void goToParticipant() {
         Intent intent = new Intent(this, Participant.class);
         startActivity(intent);
+    }
+
+}
+
+/*
+//Class for Recycler View
+*/
+
+
+class EmailData {
+
+    private String mSender;
+    private String mTitle;
+    private String mDetails;
+    private String mTime;
+
+    public EmailData(String mSender, String mTitle, String mDetails, String mTime) {
+        this.mSender = mSender;
+        this.mTitle = mTitle;
+        this.mDetails = mDetails;
+        this.mTime = mTime;
+    }
+
+    public String getmSender() {
+        return mSender;
+    }
+
+    public String getmTitle() {
+        return mTitle;
+    }
+
+    public String getmDetails() {
+        return mDetails;
+    }
+
+    public String getmTime() {
+        return mTime;
     }
 }
